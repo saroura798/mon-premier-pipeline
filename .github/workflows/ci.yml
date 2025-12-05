@@ -14,7 +14,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Validate HTML5
-        uses: Cyb3r-Jak3r/html5validator-action@v7.2.0
+      - name: Validate HTML
+        uses: anishathalye/proof-html@v1
         with:
-          root: ./
+          directory: ./
